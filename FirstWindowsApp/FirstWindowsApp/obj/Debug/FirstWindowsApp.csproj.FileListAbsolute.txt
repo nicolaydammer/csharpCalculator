@@ -1,0 +1,13 @@
+C:\Users\nicol\Desktop\C#\FirstWindowsApp\FirstWindowsApp\obj\Debug\FirstWindowsApp.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\C#\FirstWindowsApp\FirstWindowsApp\obj\Debug\FirstWindowsApp.Form1.resources
+C:\Users\nicol\Desktop\C#\FirstWindowsApp\FirstWindowsApp\obj\Debug\FirstWindowsApp.Properties.Resources.resources
+C:\Users\nicol\Desktop\C#\FirstWindowsApp\FirstWindowsApp\obj\Debug\FirstWindowsApp.csproj.GenerateResource.cache
+C:\Users\nicol\Desktop\C#\FirstWindowsApp\FirstWindowsApp\obj\Debug\FirstWindowsApp.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\C#\FirstWindowsApp\FirstWindowsApp\bin\Debug\FirstWindowsApp.exe.config
+C:\Users\nicol\Desktop\C#\FirstWindowsApp\FirstWindowsApp\bin\Debug\FirstWindowsApp.exe
+C:\Users\nicol\Desktop\C#\FirstWindowsApp\FirstWindowsApp\bin\Debug\FirstWindowsApp.pdb
+C:\Users\nicol\Desktop\C#\FirstWindowsApp\FirstWindowsApp\obj\Debug\FirstWindowsApp.exe
+C:\Users\nicol\Desktop\C#\FirstWindowsApp\FirstWindowsApp\obj\Debug\FirstWindowsApp.pdb
+C:\Users\nicol\Desktop\C#\FirstWindowsApp\FirstWindowsApp\obj\Debug\FirstWindowsApp.Form2.resources
+C:\Users\nicol\Desktop\C#\FirstWindowsApp\FirstWindowsApp\obj\Debug\FirstWindowsApp.Form3.resources
+C:\Users\nicol\Desktop\C#\FirstWindowsApp\FirstWindowsApp\obj\Debug\FirstWindowsApp.Form4.resources
