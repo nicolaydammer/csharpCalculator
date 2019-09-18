@@ -74,7 +74,16 @@ namespace calculator
 
         private void BtnCalculate_Click(object sender, EventArgs e)
         {
-            
+            if (calculateTextBox.Text != "")
+            {
+                Calculate calculate = new Calculate(calculateTextBox.Text);
+                calculateTextBox.Text = calculate.getCalculatedValue();
+            }
+            else
+            {
+                errorMsg errorMsg = new errorMsg();
+                errorMsg.ShowDialog();
+            }
         }
 
         private void BtnAdd_Click(object sender, EventArgs e)
