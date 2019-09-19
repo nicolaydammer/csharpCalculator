@@ -8,19 +8,26 @@ namespace calculator
 {
     class Calculate
     {
+        //string to be calculated
         private string _calculateString;
 
+        //constructor
         public Calculate(string calculateString)
         {
             _calculateString = calculateString;
         }
 
+        //calculate the value and return it
         public string getCalculatedValue()
         {
+            //the returned value
             string stringData = "";
+            //used temp to store data
             string[] tempString;
+            //counts the amount of pieces within the string
             int counter = 0;
 
+            //count the amount of pieces of the string to be calculated
             for (int i = 0; i < _calculateString.Length; i++)
             {
                 switch (_calculateString[i])
@@ -42,6 +49,7 @@ namespace calculator
                         break;
                 }
             }
+            //special snowflake stuff
             if (counter != 1)
             {
                 tempString = new string[counter += counter + 1];
@@ -50,6 +58,7 @@ namespace calculator
             {
                 counter += 2;
             }
+            //cut the string in pieces and order it correctly.
             for (int j = 0; j < _calculateString.Length; j++)
             {
                 if ((int)char.GetNumericValue(_calculateString[j]) >= 0 && (int)char.GetNumericValue(_calculateString[j]) <= 9)
