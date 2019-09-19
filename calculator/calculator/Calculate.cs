@@ -52,34 +52,33 @@ namespace calculator
             }
             for (int j = 0; j < _calculateString.Length; j++)
             {
-                switch ((int)Char.GetNumericValue(_calculateString[j]))
+                if ((int)char.GetNumericValue(_calculateString[j]) >= 0 && (int)char.GetNumericValue(_calculateString[j]) <= 9)
                 {
-                    case 'x':
-                        counter++;
-                        break;
-                    case ':':
-                        counter++;
-                        break;
-                    case '+':
-                        counter++;
-                        break;
-                    case '-':
-                        counter++;
-                        break;
-                    default:
-                        stringData = "Math Error, no operators found";
-                        break;
+                    
+                }
+                else
+                {
+                    switch (Char.ConvertFromUtf32(_calculateString[j]))
+                    {
+                        case "x":
+                            Console.WriteLine("operator");
+                            break;
+                        case ":":
+                            Console.WriteLine("operator");
+                            break;
+                        case "+":
+                            Console.WriteLine("operator");
+                            break;
+                        case "-":
+                            Console.WriteLine("operator");
+                            break;
+                        default:
+                            stringData = "Math Error, no operators found";
+                            break;
+                    }
                 }
             }
             return stringData;
-            //    if ((int)Char.GetNumericValue(_calculateString[j]) >= 0 && (int)Char.GetNumericValue(_calculateString[j]) <= 9)
-            //    {
-            //        return stringData;
-            //    }
-            //    else
-            //    {
-            //        return stringData;
-            //    }
         }
     }
 }

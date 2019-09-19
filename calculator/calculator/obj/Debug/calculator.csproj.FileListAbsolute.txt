@@ -19,3 +19,14 @@ C:\Users\nicolay\Desktop\c#\csharpCalculator\calculator\calculator\obj\Debug\cal
 C:\Users\nicolay\Desktop\c#\csharpCalculator\calculator\calculator\obj\Debug\calculator.exe
 C:\Users\nicolay\Desktop\c#\csharpCalculator\calculator\calculator\obj\Debug\calculator.pdb
 C:\Users\nicolay\Desktop\c#\csharpCalculator\calculator\calculator\obj\Debug\calculator.errorMsg.resources
+C:\Users\nicol\Desktop\school\C#\calculator\calculator\bin\Debug\calculator.exe.config
+C:\Users\nicol\Desktop\school\C#\calculator\calculator\bin\Debug\calculator.exe
+C:\Users\nicol\Desktop\school\C#\calculator\calculator\bin\Debug\calculator.pdb
+C:\Users\nicol\Desktop\school\C#\calculator\calculator\obj\Debug\calculator.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\school\C#\calculator\calculator\obj\Debug\calculator.errorMsg.resources
+C:\Users\nicol\Desktop\school\C#\calculator\calculator\obj\Debug\calculator.Form1.resources
+C:\Users\nicol\Desktop\school\C#\calculator\calculator\obj\Debug\calculator.Properties.Resources.resources
+C:\Users\nicol\Desktop\school\C#\calculator\calculator\obj\Debug\calculator.csproj.GenerateResource.cache
+C:\Users\nicol\Desktop\school\C#\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\school\C#\calculator\calculator\obj\Debug\calculator.exe
+C:\Users\nicol\Desktop\school\C#\calculator\calculator\obj\Debug\calculator.pdb
