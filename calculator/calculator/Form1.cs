@@ -98,12 +98,12 @@ namespace calculator
 
         private void BtnMultiply_Click(object sender, EventArgs e)
         {
-            calculateTextBox.Text += "x";
+            calculateTextBox.Text += "*";
         }
 
         private void BtnDivide_Click(object sender, EventArgs e)
         {
-            calculateTextBox.Text += ":";
+            calculateTextBox.Text += "/";
         }
     }
 }
