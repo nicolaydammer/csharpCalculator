@@ -1,0 +1,10 @@
+C:\Users\nicol\Desktop\school\C#\spinnerApp\spinnerApp\bin\Debug\spinnerApp.exe.config
+C:\Users\nicol\Desktop\school\C#\spinnerApp\spinnerApp\bin\Debug\spinnerApp.exe
+C:\Users\nicol\Desktop\school\C#\spinnerApp\spinnerApp\bin\Debug\spinnerApp.pdb
+C:\Users\nicol\Desktop\school\C#\spinnerApp\spinnerApp\obj\Debug\spinnerApp.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\school\C#\spinnerApp\spinnerApp\obj\Debug\spinnerApp.Form1.resources
+C:\Users\nicol\Desktop\school\C#\spinnerApp\spinnerApp\obj\Debug\spinnerApp.Properties.Resources.resources
+C:\Users\nicol\Desktop\school\C#\spinnerApp\spinnerApp\obj\Debug\spinnerApp.csproj.GenerateResource.cache
+C:\Users\nicol\Desktop\school\C#\spinnerApp\spinnerApp\obj\Debug\spinnerApp.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\school\C#\spinnerApp\spinnerApp\obj\Debug\spinnerApp.exe
+C:\Users\nicol\Desktop\school\C#\spinnerApp\spinnerApp\obj\Debug\spinnerApp.pdb
