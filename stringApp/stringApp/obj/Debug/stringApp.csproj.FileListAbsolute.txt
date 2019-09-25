@@ -1,0 +1,10 @@
+C:\Users\nicol\Desktop\school\C#\stringApp\stringApp\bin\Debug\stringApp.exe.config
+C:\Users\nicol\Desktop\school\C#\stringApp\stringApp\bin\Debug\stringApp.exe
+C:\Users\nicol\Desktop\school\C#\stringApp\stringApp\bin\Debug\stringApp.pdb
+C:\Users\nicol\Desktop\school\C#\stringApp\stringApp\obj\Debug\stringApp.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\school\C#\stringApp\stringApp\obj\Debug\stringApp.Form1.resources
+C:\Users\nicol\Desktop\school\C#\stringApp\stringApp\obj\Debug\stringApp.Properties.Resources.resources
+C:\Users\nicol\Desktop\school\C#\stringApp\stringApp\obj\Debug\stringApp.csproj.GenerateResource.cache
+C:\Users\nicol\Desktop\school\C#\stringApp\stringApp\obj\Debug\stringApp.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\school\C#\stringApp\stringApp\obj\Debug\stringApp.exe
+C:\Users\nicol\Desktop\school\C#\stringApp\stringApp\obj\Debug\stringApp.pdb
