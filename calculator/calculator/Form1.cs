@@ -17,93 +17,49 @@ namespace calculator
             InitializeComponent();
         }
 
-        private void Btn1_Click(object sender, EventArgs e)
+        //add number to screen
+        private void addNumberToString(object sender, EventArgs e)
         {
-            calculateTextBox.Text += 1;
+            calculateTextBox.Text += ((Button)sender).Text;
         }
 
-        private void Btn2_Click(object sender, EventArgs e)
-        {
-            calculateTextBox.Text += 2;
-        }
-
-        private void Btn3_Click(object sender, EventArgs e)
-        {
-            calculateTextBox.Text += 3;
-        }
-
-        private void Btn4_Click(object sender, EventArgs e)
-        {
-            calculateTextBox.Text += 4;
-        }
-
-        private void Btn5_Click(object sender, EventArgs e)
-        {
-            calculateTextBox.Text += 5;
-        }
-
-        private void Btn6_Click(object sender, EventArgs e)
-        {
-            calculateTextBox.Text += 6;
-        }
-
-        private void Btn7_Click(object sender, EventArgs e)
-        {
-            calculateTextBox.Text += 7;
-        }
-
-        private void Btn8_Click(object sender, EventArgs e)
-        {
-            calculateTextBox.Text += 8;
-        }
-
-        private void Btn9_Click(object sender, EventArgs e)
-        {
-            calculateTextBox.Text += 9;
-        }
-
-        private void Btn0_Click(object sender, EventArgs e)
-        {
-            calculateTextBox.Text += 0;
-        }
-
+        //clear textbox
         private void BtnClear_Click(object sender, EventArgs e)
         {
             calculateTextBox.Text = "";
         }
 
+        //calculate string
         private void BtnCalculate_Click(object sender, EventArgs e)
         {
             if (calculateTextBox.Text != "")
             {
-                Calculate calculate = new Calculate(calculateTextBox.Text);
-                calculateTextBox.Text = calculate.getCalculatedValue();
+                try
+                {
+                    calculateTextBox.Text = new DataTable().Compute(calculateTextBox.Text, null).ToString();
+                }
+                catch (EvaluateException)
+                {
+                    calculateTextBox.Text = "Syntax Error";
+                }
             }
             else
             {
-                errorMsg errorMsg = new errorMsg();
-                errorMsg.ShowDialog();
+                MessageBox.Show("Input can't be empty!");
             }
         }
 
-        private void BtnAdd_Click(object sender, EventArgs e)
+        //operator button
+        private void addOperator(object sender, EventArgs e)
         {
-            calculateTextBox.Text += "+";
-        }
-
-        private void BtnMinus_Click(object sender, EventArgs e)
-        {
-            calculateTextBox.Text += "-";
-        }
-
-        private void BtnMultiply_Click(object sender, EventArgs e)
-        {
-            calculateTextBox.Text += "*";
-        }
-
-        private void BtnDivide_Click(object sender, EventArgs e)
-        {
-            calculateTextBox.Text += "/";
+            if (((Button)sender).Text == "x")
+            {
+                calculateTextBox.Text += "*";
+            }
+            else
+            {
+                calculateTextBox.Text += ((Button)sender).Text;
+            }
         }
     }
 }
