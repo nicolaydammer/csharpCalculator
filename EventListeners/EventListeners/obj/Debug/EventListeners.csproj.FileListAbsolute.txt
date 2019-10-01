@@ -1,0 +1,10 @@
+C:\Users\nicol\Desktop\school\C#\EventListeners\EventListeners\bin\Debug\EventListeners.exe.config
+C:\Users\nicol\Desktop\school\C#\EventListeners\EventListeners\bin\Debug\EventListeners.exe
+C:\Users\nicol\Desktop\school\C#\EventListeners\EventListeners\bin\Debug\EventListeners.pdb
+C:\Users\nicol\Desktop\school\C#\EventListeners\EventListeners\obj\Debug\EventListeners.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\school\C#\EventListeners\EventListeners\obj\Debug\EventListeners.Form1.resources
+C:\Users\nicol\Desktop\school\C#\EventListeners\EventListeners\obj\Debug\EventListeners.Properties.Resources.resources
+C:\Users\nicol\Desktop\school\C#\EventListeners\EventListeners\obj\Debug\EventListeners.csproj.GenerateResource.cache
+C:\Users\nicol\Desktop\school\C#\EventListeners\EventListeners\obj\Debug\EventListeners.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\school\C#\EventListeners\EventListeners\obj\Debug\EventListeners.exe
+C:\Users\nicol\Desktop\school\C#\EventListeners\EventListeners\obj\Debug\EventListeners.pdb
