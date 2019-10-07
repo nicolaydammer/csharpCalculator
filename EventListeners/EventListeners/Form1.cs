@@ -12,42 +12,30 @@ namespace EventListeners
 {
     public partial class Form1 : Form
     {
-        private int clickCount = 0;
-        private int[][] coordinates = new int[9][];
+        private Lines lines = new Lines();
+        private int counter = 0;
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void drawLines(object sender, EventArgs e)
+        private void PictureBox1_Click(object sender, EventArgs e)
         {
-            MouseEventArgs coord = (MouseEventArgs)e;
-            Point mouseCoordinates = coord.Location;
-            if (clickCount == 10)
+            Graphics dc = pictureBox1.CreateGraphics();
+            MouseEventArgs e2 = (MouseEventArgs)e;
+            lines.addCoordinates(e2.X, e2.Y, counter);
+            if (counter == 10)
             {
-                Array.Clear(coordinates, 0, 9);
+                lines.emptyCoordinates();
+                counter = 0;
+                dc.Clear(Color.White);
             }
-            else
+            else if (counter > 0)
             {
-                coordinates[clickCount, 0] = mouseCoordinates.X;
-                coordinates[clickCount, 1] = mouseCoordinates.Y;
+                lines.drawLine(dc, counter);
             }
-            clickCount++;
-        }
-
-        private void PictureBox1_Paint(object sender, PaintEventArgs e)
-        {
-            {
-                Pen blackPen = new Pen(Color.Black, 3);
-                for (int i = 0; i < coordinates.Length; i++)
-                {
-                    Console.WriteLine(coordinates[i]);
-                    //if (coordinates[i][0] != null && coordinates[i][1] != null && i != 0)
-                    //{
-                    //    e.Graphics.DrawLine(blackPen, coordinates[i][0], coordinates[i][1], coordinates[i - 1][0], coordinates[i - 1][1]);
-                    //}
-                }
-            }
+            counter++;
         }
     }
 }

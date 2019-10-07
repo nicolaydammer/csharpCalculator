@@ -8,3 +8,13 @@ C:\Users\nicol\Desktop\school\C#\EventListeners\EventListeners\obj\Debug\EventLi
 C:\Users\nicol\Desktop\school\C#\EventListeners\EventListeners\obj\Debug\EventListeners.csproj.CoreCompileInputs.cache
 C:\Users\nicol\Desktop\school\C#\EventListeners\EventListeners\obj\Debug\EventListeners.exe
 C:\Users\nicol\Desktop\school\C#\EventListeners\EventListeners\obj\Debug\EventListeners.pdb
+C:\Users\nicolay\Desktop\c#\csharpCalculator\EventListeners\EventListeners\bin\Debug\EventListeners.exe.config
+C:\Users\nicolay\Desktop\c#\csharpCalculator\EventListeners\EventListeners\bin\Debug\EventListeners.exe
+C:\Users\nicolay\Desktop\c#\csharpCalculator\EventListeners\EventListeners\bin\Debug\EventListeners.pdb
+C:\Users\nicolay\Desktop\c#\csharpCalculator\EventListeners\EventListeners\obj\Debug\EventListeners.csprojAssemblyReference.cache
+C:\Users\nicolay\Desktop\c#\csharpCalculator\EventListeners\EventListeners\obj\Debug\EventListeners.Form1.resources
+C:\Users\nicolay\Desktop\c#\csharpCalculator\EventListeners\EventListeners\obj\Debug\EventListeners.Properties.Resources.resources
+C:\Users\nicolay\Desktop\c#\csharpCalculator\EventListeners\EventListeners\obj\Debug\EventListeners.csproj.GenerateResource.cache
+C:\Users\nicolay\Desktop\c#\csharpCalculator\EventListeners\EventListeners\obj\Debug\EventListeners.csproj.CoreCompileInputs.cache
+C:\Users\nicolay\Desktop\c#\csharpCalculator\EventListeners\EventListeners\obj\Debug\EventListeners.exe
+C:\Users\nicolay\Desktop\c#\csharpCalculator\EventListeners\EventListeners\obj\Debug\EventListeners.pdb
